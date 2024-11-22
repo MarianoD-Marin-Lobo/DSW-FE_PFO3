@@ -1,0 +1,72 @@
+/* ///// GENERAL SETTINGS /////////////////////////////////////////*/
+
+:root {
+    font-size: 16px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* ///// BODY SETTINGS /////////////////////////////////////////*/
+
+body {
+    font-family: "Raleway", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* ///// HEADER SETTINGS /////////////////////////////////////////*/
+
+header {
+    background-color: rgb(8, 71, 80);
+    color: rgb(255, 255, 255);
+    padding: 1rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    padding: 0.5rem;
+    text-align: center;
+    font-weight: 600;
+    font-style: italic;
+}
+
+header h2 {
+    font-size: 2rem;
+    padding: 0.5rem;
+    text-align: center;
+    font-weight: 600;
+    font-style: italic;
+}
+
+/* ///// SECTION SETTINGS /////////////////////////////////////////*/
+
+section {
+    background-color:  rgb(255, 255, 255);
+    color: rgb(8, 71, 80);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    width: 100vw;
+    height: 100vh;
+}
+
+section ul li {
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+.datos-comision-alumno {
+    padding: 1rem;
+}
+
+.datos-comision-alumno li {
+    font-size: 2.5rem;
+    list-style: none;
+}
+
